@@ -2,6 +2,8 @@
 
 body {
     color: #003057;
+    background-color: rgb(250, 250, 250);
+    font-family: "Old London";
 }
 
 .logo {
@@ -18,7 +20,7 @@ header {
   
   header video {
     display: block;
-    margin: 0 auto;
+    margin: 1% auto;
     width: 75%;
     height: auto;
   }
