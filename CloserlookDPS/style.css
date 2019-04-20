@@ -30,14 +30,6 @@ header {
     z-index: 2;
   }
   
-
-  
-  @media (pointer: coarse) and (hover: none) {
-    header video {
-      display: none;
-    }
-  }
-
   /*Timeline*/
   
   ul.timeline {
@@ -69,4 +61,20 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+/*Youtube Videos*/
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
