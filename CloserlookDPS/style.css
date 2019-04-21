@@ -7,6 +7,14 @@ body {
     font-size: large;
 }
 
+a{
+  color: #1E90FF;
+}
+
+a:hover {
+  color: blue;
+}
+
 .logo {
     font-family: "Old London";
     color: #003057;
